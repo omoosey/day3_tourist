@@ -1,0 +1,29 @@
+.slide-container img {
+	width: 75%;
+	height: auto;
+}
+
+.hide {
+	display: none;
+}
+
+#slide-carousel ul {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	/*justify-content: space-between;*/
+	padding: 0px;
+	list-style-position: inside;
+	margin: 0px;
+	padding: 0px;
+}
+
+#slide-carousel ul li {
+	width: 38px;
+	height: 38px;
+	font-size: 38px;
+}
+
+.active {
+	color: green;
+}
